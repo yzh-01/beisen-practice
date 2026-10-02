@@ -46,4 +46,13 @@
 
 浏览器自动测试使用源码的本机 HTTP 预览。内置浏览器不允许 file 协议，单文件双击打开未进行浏览器自动实测；离线脚本及资源已独立检查。用户反馈双击无法使用后，README 已删除直接打开的使用保证，改为在线站点和本地 HTTP 服务器步骤；未确认用户环境下双击失败的具体原因。
 
-发布状态：Sites 已返回部署成功，站点为 https://beisen-ability-practice.y-z-h.chatgpt.site。按用户要求，2026-10-02 将站点访问权限从仅本人改为公开，Sites 返回 `access_mode: public`。GitHub 仓库仍为私有。推送前额外验证了不含原始仓库快照的交付文件，265 题、计分、随机抽题与内嵌图片检查均通过。
+发布状态：Sites 已返回部署成功，站点为 https://beisen-ability-practice.y-z-h.chatgpt.site。按用户要求，2026-10-02 将站点访问权限从仅本人改为公开，Sites 返回 `access_mode: public`。用户随后将 GitHub 仓库改为 PUBLIC，API 已确认 `private: false`。推送前额外验证了不含原始仓库快照的交付文件，265 题、计分、随机抽题与内嵌图片检查均通过。
+
+## GitHub Pages 备用入口
+
+为应对手机访问 Sites 时出现 Cloudflare 拦截，2026-10-02 在现有公开仓库启用 GitHub Pages：https://yzh-01.github.io/beisen-practice/。
+
+- 工作流 `.github/workflows/pages.yml` 仅上传 `dist`，不发布研究目录、仓库元数据或托管配置；GitHub 官方 Actions 固定到已查询的提交版本。
+- [部署运行 36989613011](https://github.com/yzh-01/beisen-practice/actions/runs/36989613011) 成功完成：题库与交付资源验证、静态资源上传、Pages 部署均通过。
+- 实际 HTTP 检查：站点首页返回 200 且包含工具标题，`engine.js` 返回 200，`question-bank/data-image1.jpg` 返回 200 且内容类型为 `image/jpeg`。
+- 此次只调整托管与访问入口，题库和练习功能沿用已验证版本。用户手机端的网络访问仍需用新地址确认。

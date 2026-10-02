@@ -2,9 +2,11 @@
 
 中文认知能力练习工具，排除性格、兴趣、价值观、动机等自陈问卷。默认使用 **117 道 GitHub 来源题，不抽原创题**。
 
-**在线练习：[打开北森测评练习工具](https://beisen-ability-practice.y-z-h.chatgpt.site)**
+**在线练习：[打开北森测评练习工具（GitHub Pages）](https://yzh-01.github.io/beisen-practice/)**
 
 站点已公开，任何人都可以通过链接访问。
+
+原 [Sites 入口](https://beisen-ability-practice.y-z-h.chatgpt.site) 仍保留；如果它显示 Cloudflare 安全拦截，请改用上方 GitHub Pages 入口。
 
 ## 使用
 
@@ -69,6 +71,6 @@ node scripts/validate.cjs
 
 克隆仓库后可直接运行 `node scripts/validate.cjs`，并按上面的本地服务器方式使用现成的静态文件，不依赖原始资料快照。原始仓库与完整 OCR 草稿不提交；若要重新导入题库，将 BeiSen_Practice 指定提交的源码解压到 `research/upstream/BeiSen_Practice-fcd30068e84421a97f1aca6ab98b1f1400e11406/` 后再运行导入脚本。有该快照时验证会额外对比原题行号与图片字节。
 
-题库仓库的内容与代码许可应分别核对；未提供许可证的资料不视为官方授权或允许任意再发布。项目保存于私有 GitHub 仓库 [yzh-01/beisen-practice](https://github.com/yzh-01/beisen-practice)，站点使用 Sites 托管，已公开访问：[在线练习](https://beisen-ability-practice.y-z-h.chatgpt.site)。
+题库仓库的内容与代码许可应分别核对；未提供许可证的资料不视为官方授权或允许任意再发布。项目保存于公开 GitHub 仓库 [yzh-01/beisen-practice](https://github.com/yzh-01/beisen-practice)。GitHub Pages 工作流仅发布 `dist`，每次相关网页资源更新后先验证题库和交付文件，再自动部署：[在线练习](https://yzh-01.github.io/beisen-practice/)。
 
 页面在支持 WebMCP 的浏览器中提供配置练习、读取已提交成绩两个工具，普通浏览器使用不受影响。
