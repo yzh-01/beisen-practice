@@ -1,0 +1,380 @@
+[
+  {
+    "id": "gh-gd-01025",
+    "category": "quantity",
+    "tag": "工程效率",
+    "stem": "某蓄电池可以同时供20台设备运行5天，在供20台设备运行12小时后，又新增了5台设备。如果所有设备每天的耗电量相等，则该蓄电池还可以供这些设备运行（ ）天。",
+    "options": [
+      "3.5",
+      "3.6",
+      "3.8",
+      "4.0"
+    ],
+    "answer": 1,
+    "explanation": "总电量相当于 20×5=100 台设备工作一天。前 12 小时消耗 20×0.5=10，剩余 90，新增后共 25 台，剩余时间=90÷25=3.6 天。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01025",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01027",
+    "category": "quantity",
+    "tag": "间隔计数",
+    "stem": "某街道计划在本周的周一至周日中选取3天开展社区活动。如果要求每次活动之间至少间隔1天，则可行的活动时间安排有（ ）种。",
+    "options": [
+      "3",
+      "5",
+      "10",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "活动日期 d1<d2<d3，要求相邻日期至少差 2。令新日期为 d1、d2−1、d3−2，就转为从 5 个日期中任取 3 个，共 C(5,3)=10 种。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01027",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01028",
+    "category": "quantity",
+    "tag": "整数方程",
+    "stem": "甲、乙、丙、丁四人参加知识竞赛，得分均为正整数，得分从高到低依次是甲、乙、丙、丁。如果甲和乙的总得分为100分，乙和丙的总得分为96分，丙和丁的总得分为80分，则丁的得分为：",
+    "options": [
+      "33",
+      "36",
+      "39",
+      "不能确定"
+    ],
+    "answer": 0,
+    "explanation": "设乙为 x，则甲=100−x、丙=96−x、丁=x−16。甲>乙给 x<50，乙>丙给 x>48。整数 x 只能是 49，丁=33。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01028",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01029",
+    "category": "quantity",
+    "tag": "任务排序",
+    "stem": "有4批原材料存放在同一个仓库，工厂每次会从仓库中运出一整批原材料进行加工，加工完成后才能从仓库提取下一批原材料。已知一批原材料在仓库内每存放满1小时需要支付100元的费用，且工厂加工这4批原材料需要的时间分别为4、6、7、8小时，则工厂为这些原材料支付的仓库存放费用至少为（ ）元。",
+    "options": [
+      "2800",
+      "3100",
+      "3300",
+      "3500"
+    ],
+    "answer": 1,
+    "explanation": "先加工短任务可缩短后续批次等待。顺序 4、6、7、8，小批等待时间为 0、4、10、17 小时，共 31 批小时，费用 3100 元。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01029",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01030",
+    "category": "quantity",
+    "tag": "往返追及",
+    "stem": "甲、乙两人在小区内晨跑，速度分别是140米/分钟和100米/分钟。他们同时从小区跑道的起点向终点匀速跑步，各自不停地在起点和终点往返。如果该跑道的长度为200米，则当甲第二次追上乙时，距离起点（ ）米。",
+    "options": [
+      "0",
+      "50",
+      "100",
+      "200"
+    ],
+    "answer": 0,
+    "explanation": "将往返运动展开为周期为 400 米的折线运动。两人速度差 40 米/分钟，同向追上的时刻分别为 10、20 分钟；第一次在终点，第二次在起点，所以第二次追上距起点 0 米。相向相遇不计作追上。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01030",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01036",
+    "category": "logic",
+    "tag": "条件推理",
+    "stem": "如果一座城市采用集约高效的发展方式，那么其资源消耗量必然会减少。只要这种减少速度非常缓慢，就不会对城市经济发展造成负面影响。 由此可以推出：",
+    "options": [
+      "如果资源消耗量没有减少，说明该城市没有采用集约高效的发展方式",
+      "如果城市没有采用集约高效的发展方式，其资源消耗量必然没有减少",
+      "如果资源消耗量减少，说明该城市采用了集约高效的发展方式",
+      "如果资源消耗量减少的速度很快，必然会对该城市的经济发展造成负面影响"
+    ],
+    "answer": 0,
+    "explanation": "集约高效⇒资源减少，取逆否命题为资源未减少⇒未采用集约高效。A 正确，其他项分别倒推或把缓慢这一充分条件错误否定。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01036",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01037",
+    "category": "logic",
+    "tag": "论证推理",
+    "stem": "甘蔗是生产加工食糖的重要原料。近年来，世界范围内甘蔗种植面积不断扩大，在一定程度上改变了土地利用的格局。由于全球食糖需求不断增长，有人因此认为，随着食糖的生产加工规模进一步扩大，甘蔗种植会进一步改变土地利用的格局。 要使上述推论成立，需要补充的前提是（ ）。",
+    "options": [
+      "甘蔗种植用水量较大，会给当地水资源造成压力",
+      "甘蔗的种植周期较短，能够为食糖的生产快速提供原料",
+      "随着全球食糖需求的增长，种植者会扩大甘蔗的种植面积",
+      "适宜种植甘蔗的区域，其土壤条件也适合种植其他富含糖分的作物"
+    ],
+    "answer": 2,
+    "explanation": "结论需要从食糖需求增长连接到甘蔗种植面积扩张。C 直接补上这一环节，其他选项不保证土地利用范围会进一步改变。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01037",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01038",
+    "category": "logic",
+    "tag": "论证推理",
+    "stem": "某种水毛茛是A市特有的野生植物，对水质要求极高，其仅生长于清澈、流动的水体中，因此被誉为优良水质的“指示物种”。2023年受特大暴雨影响，A市某自然保护区内的水毛茛大面积消失，其所依赖的自然条件难以自行恢复，因而面临灭绝的风险。但在今年春季，有人发现，该自然保护区内重新出现了这种水毛茛，且群落规模远超以往。 下列选项如果为真，最能解释上述现象的是（ ）。",
+    "options": [
+      "这种水毛茛的分布范围已扩展至与自然保护区相邻的多处水域",
+      "即使经历了暴雨，该自然保护区的水质仍然优于周边河流水域",
+      "这种水毛茛同时具备有性繁殖和无性繁殖的能力，繁殖能力较强",
+      "近两年，通过水系修复等人工措施，该自然保护区的水质大幅提高了"
+    ],
+    "answer": 3,
+    "explanation": "矛盾是自然条件原本难自行恢复，却重新形成更大群落。D 说明人工修复改善了关键水质条件，可解释恢复。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01038",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01039",
+    "category": "logic",
+    "tag": "条件推理",
+    "stem": "某单位计划组织职工参观科技馆、文化馆、博物馆和美术馆。但由于时间有限，这4个场馆不能都去。有职工提出了如下建议并被采纳： （1）由于相距较远，不建议既去文化馆又去博物馆； （2）美术馆和文化馆的展览都很有吸引力，至少参观其中的一个； （3）去年已经去过美术馆，今年就不去了。 补充下列选项中的（ ），可以得出“该单位一定会去科技馆”的结论。",
+    "options": [
+      "如果不去科技馆，就去博物馆",
+      "只有不去科技馆，才去博物馆",
+      "只有不去博物馆，才不去科技馆",
+      "如果要去博物馆，不去科技馆"
+    ],
+    "answer": 0,
+    "explanation": "不去美术馆，加上至少去美术馆或文化馆，推出去文化馆；文化馆与博物馆不能同去，所以不去博物馆。A 的不去科技馆⇒去博物馆取逆否，推出去科技馆。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01039",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01040",
+    "category": "logic",
+    "tag": "论证推理",
+    "stem": "太空环境具有高真空、高辐射、微重力、极端温度变化等特点，对人造卫星的材料和电子元件提出了极高的要求。近日，我国成功发射了太空计算卫星。由于太空计算卫星具备强大的数据实时处理能力，有专家据此认为，未来太空计算卫星将广泛应用于应急安全、城市治理等领域。 下列选项最有可能是上述推论暗含前提的是（ ）。",
+    "options": [
+      "太空计算卫星能够同时适应地面环境和太空环境",
+      "太空计算卫星在太空中的数据处理速度显著快于地面",
+      "我国目前亟需采集应急安全、城市治理等领域的实时数据",
+      "应急安全、城市治理等领域存在大量需要实时处理的数据"
+    ],
+    "answer": 3,
+    "explanation": "实时处理能力要成为广泛应用的理由，应用场景必须有对应的数据处理需求，D 补足能力与需求之间的联系。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01040",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01041",
+    "category": "logic",
+    "tag": "论证推理",
+    "stem": "针对某款即将上市的新产品，商家开展了预售活动，预订的人数远超预期。但在产品正式发货前，许多顾客却取消了该产品的预订。 下列选项如果为真，最不能解释上述现象的是（ ）。",
+    "options": [
+      "因为产能问题，该产品发货日期一再延后",
+      "收到货后，许多顾客反映该产品质量欠佳",
+      "预售还未结束，商家就对新预订的用户给予了更大的优惠",
+      "产品预售期间，其他商家推出了多款设计接近但价格更低的竞品"
+    ],
+    "answer": 1,
+    "explanation": "取消发生在正式发货前，B 所述收到货后才出现的反馈无法解释先前取消。A、C、D 可在取消时提供动机。注意设问为最不能解释。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01041",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01042",
+    "category": "logic",
+    "tag": "逻辑结构",
+    "stem": "不建立主体明确、要求清晰的责任体系，就不能压紧压实安全生产责任。当前主体明确、要求清晰的责任体系已经建立，因此安全生产责任已经压紧压实。 下列选项与题干逻辑结构最为相似的是（ ）。",
+    "options": [
+      "只有实行多元共治，才能构建和谐社区。某社区建成了和谐社区，因此该社区实行了多元共治",
+      "不实现教育资源的公平分配，就无法提高全民素质。当前全民素质还有待提高，所以教育资源的公平分配还未实现",
+      "如果某地区深入推进生态文明建设，那么该地区已经实现了资源循环利用。这是因为不深入推进生态文明建设，就无法实现资源循环利用",
+      "如果合理开采资源，就能实现自然资源的可持续利用。多地政府已经出台法律法规禁止过度开采，因此许多地区已经实现了自然资源的可持续利用"
+    ],
+    "answer": 2,
+    "explanation": "题干把必要条件误当充分条件：责任落实⇒责任体系，然后用责任体系推出责任落实。C 也从资源循环利用⇒生态建设错误反推生态建设⇒资源循环利用，结构一致。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01042",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01043",
+    "category": "logic",
+    "tag": "论证推理",
+    "stem": "湖泊在北极的面积占比达到四成，为动植物生存提供了不可或缺的淡水资源。近年来，全球变暖使得北极的永冻土层逐渐融化，融化的水随之流入湖泊和海洋。有人据此推测，北极现存的湖泊面积应该扩张，然而观测数据显示，大部分北极湖泊面积都有所缩减。 下列选项如果为真，最能解释上述现象的是（ ）。",
+    "options": [
+      "据统计，大部分处于逐渐融化状态的冰山位于海洋中",
+      "近年来北极动植物数量不断增加，淡水资源的需求量不断增大",
+      "由于冰川消融，北极地区的部分湖泊相互连接成了一个更大的湖泊",
+      "永冻土层消融使北极地区的湖泊底部出现大量孔隙，湖水从孔隙渗漏"
+    ],
+    "answer": 3,
+    "explanation": "永冻土融化既可能增加来水，也可能造成渗漏。D 给出了湖水向下泄漏这一机制，解释湖泊面积缩小。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01043",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01044",
+    "category": "logic",
+    "tag": "论证推理",
+    "stem": "对于研发型企业来说，获得突破性的研发成果至关重要。某研发型企业在回顾其发展历程后发现，企业大多数突破性的研发成果都源自新手研发人员。该企业因此认为，要想获得更多的突破性研发成果，在组建新的研发团队时应当只考虑新手研发人员。 以下选项如果为真，最能反驳这一结论的是（ ）。",
+    "options": [
+      "该企业现有的多数重要研发成果尚未成功转化应用",
+      "对于大多数的新手研发人员，该企业目前的薪资吸引力不高",
+      "突破性的研究设想都需要经过经验丰富的研发人员改进才能实现",
+      "将新手研发人员培养成经验丰富的研发人员需要投入大量的资源"
+    ],
+    "answer": 2,
+    "explanation": "结论要求团队只用新手。C 表明突破设想必须依靠有经验者才能实现，直接反驳排除有经验人员的做法。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01044",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01046",
+    "category": "logic",
+    "tag": "逻辑结构",
+    "stem": "绿化率高的小区，居民幸福感强。居民幸福感强的小区，环境卫生状况好。因此，绿化率高的小区环境卫生状况好。 下列选项与上述推理的逻辑结构最为相似的是（ ）。",
+    "options": [
+      "粉尘浓度高的区域遇明火易发生爆炸，易发生爆炸的区域都应严禁烟火。因此粉尘浓度不高的区域无需禁止烟火",
+      "员工满意度较高的公司离职率较低，而绩效考核合理的公司员工满意度较高。因此绩效考核合理的公司离职率较低",
+      "利润增长快的企业都进行了技术创新，这是因为企业通过技术创新可以提高生产效率，而生产效率的提高可以促进利润增长",
+      "双减政策的落实减轻了学生的学习压力，课外活动时间的增加也减轻了学生的学习压力。因此，课外活动时间的增加体现了双减政策的落实"
+    ],
+    "answer": 1,
+    "explanation": "题干为绿化高⇒幸福强⇒卫生好。B 为考核合理⇒满意高⇒离职低，同为连接两个充分条件得出结论。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01046",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01047",
+    "category": "logic",
+    "tag": "排列推理",
+    "stem": "某市召开年度经济工作会议，根据安排，某一排是教育局、住建局、交通局、农业局、人社局、财政局6个职能局的座位。已知： ① 财政局在人社局的右手边并与之相邻，在住建局的左手边但与之不相邻； ② 教育局与交通局之间隔着一个职能局。 如果农业局和财政局相邻，则下列选项必然正确的是（ ）。",
+    "options": [
+      "教育局在从右到左第三位",
+      "住建局在从右到左第二位",
+      "交通局在从左到右第三位",
+      "人社局在从左到右第二位"
+    ],
+    "answer": 1,
+    "explanation": "按从左到右枚举满足全部位置约束的六局排列，并加入农业与财政相邻，可见住建局始终位于第五位，即从右到左第二位；其他选项均有反例。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 3,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01047",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01048",
+    "category": "logic",
+    "tag": "论证推理",
+    "stem": "某古生物学研究小组在一处白垩纪晚期地层中发现了保存完整的恐龙皮肤化石。通过高分辨率显微镜，研究人员发现该恐龙皮肤表面存在大量微小的中空管状结构。由于这些结构类似于现代鸟类羽毛中用于体温调节的羽茎，研究人员推测，这些微小的中空管状结构是恐龙用于调节体温的特殊结构。 以下选项如果为真，最能支持上述推测的是（ ）。",
+    "options": [
+      "这些中空管状结构能够增强生物体表的散热能力",
+      "其他恐龙化石之中也发现了类似的中空管状结构",
+      "现代爬行类动物的皮肤表面不存在类似的中空管状结构",
+      "由于白垩纪晚期气候异常，恐龙需要体温调节机制维持生存"
+    ],
+    "answer": 0,
+    "explanation": "论点是中空管状结构用于调节体温。A 直接证明结构能够散热，补足结构与功能的联系；其他选项仅涉及存在、差异或需求。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01048",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  },
+  {
+    "id": "gh-gd-01049",
+    "category": "logic",
+    "tag": "逻辑结构",
+    "stem": "企业节能减排必须通过购买碳配额或自主开发减排项目实现。某企业未购买碳配额，因此该企业要节能减排需自主开发减排项目。 下列选项与题干逻辑结构最为相似的是（ ）。",
+    "options": [
+      "申请绿色产品认证的公司需通过专家评审或提交检测报告。某公司未提交过检测报告，因此该公司应当组织开展专家评审",
+      "有的地区支持企业购买碳汇，有的地区则支持企业使用清洁能源。某地区支持企业使用清洁能源，因此该地区不支持企业购买碳汇",
+      "企业申请创业补贴或者通过线上申请，或者通过线下窗口办理。某企业已经通过线上渠道提交了申请，因此无需前往线下窗口办理",
+      "重点排放单位应通过安装监测设备或委托第三方核查排放情况。某企业属重点排放单位且未委托第三方核查排放情况，因此该企业需安装监测设备核查排放情况"
+    ],
+    "answer": 3,
+    "explanation": "题干是目标⇒方式甲或方式乙，否定甲后推出需乙。D 同样明确给出主体满足目标条件，再排除一种方式，推出另一种。A 未说明该公司正在申请认证。",
+    "source": "ghGuangdong",
+    "provenance": "github",
+    "difficulty": 2,
+    "seconds": 90,
+    "sourceQuestionId": "OCR20260312_01049",
+    "sourceUrl": "https://github.com/yangj557/daily-gongkao-skill/blob/ddce6a2251a1b9f605fbe65efb2ff0c8127b42d9/data/ocr_question_bank/2026%E5%B9%B4%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%85%AC%E5%8A%A1%E5%91%98%E5%BD%95%E7%94%A8%E8%80%83%E8%AF%95%E3%80%8A%E8%A1%8C%E6%B5%8B%E3%80%8B%E9%A2%98%EF%BC%88%E7%BD%91%E5%8F%8B%E5%9B%9E%E5%BF%86%E7%89%88%EF%BC%89_question_bank.json",
+    "reviewNote": "GitHub 回忆版 OCR 草稿；仅选用无图、条件完整且答案独立复核的题目。不是北森专用真题。"
+  }
+]

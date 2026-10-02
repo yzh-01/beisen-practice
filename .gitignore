@@ -1,0 +1,9 @@
+scripts/reference-manual.pdf
+scripts/reference-manual.txt
+.sites-runtime/
+*.tar.gz
+*.zip
+*-preview.png
+research/upstream/
+research/*.png
+research/guangdong-2026.json

@@ -1,0 +1,11 @@
+const fs=require('node:fs'),path=require('node:path');
+const project=path.resolve(__dirname,'..'),dir=path.join(project,'dist');
+let html=fs.readFileSync(path.join(dir,'index.html'),'utf8');
+html=html.replace('<link rel="stylesheet" href="styles.css">',()=>'<style>'+fs.readFileSync(path.join(dir,'styles.css'),'utf8')+'</style>');
+const images={};
+const assetDir=path.join(dir,'question-bank');
+if(fs.existsSync(assetDir))for(const file of fs.readdirSync(assetDir).filter(f=>/\.jpg$/i.test(f)))images['question-bank/'+file]='data:image/jpeg;base64,'+fs.readFileSync(path.join(assetDir,file)).toString('base64');
+for(const filename of ['bank.js','github-bank.js','engine.js','app.js'])html=html.replace(`<script src="${filename}"></script>`,()=>'<script>'+(filename==='github-bank.js'?'window.PRACTICE_IMAGES='+JSON.stringify(images)+';\n':'')+fs.readFileSync(path.join(dir,filename),'utf8').replace(/<\/script/gi,'<\\/script')+'</script>');
+if(/(?:href|src)="(?:styles.css|bank.js|github-bank.js|engine.js|app.js)"/.test(html))throw Error('Offline file still depends on source assets');
+const target=path.join(project,'北森测评练习.html');fs.writeFileSync(target,html,'utf8');
+console.log(JSON.stringify({file:target,bytes:Buffer.byteLength(html),standalone:true}));

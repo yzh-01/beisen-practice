@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>北森测评练习 · 能力训练工作台</title>
+  <meta name="description" content="北森认知测评练习：默认117道可追溯的GitHub公开题，七类客观题、限时模拟、正确率、成绩与解析，排除性格测试。">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2317253d'/%3E%3Cpath d='M7 23V16h4v7m3 0V10h4v13m3 0V6h4v17' stroke='%23ff9369' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <style>@media(max-width:800px){.quiz-side{display:contents}.quiz-layout>section.panel{grid-row:2}.quiz-side>.panel:first-child{grid-row:1;display:flex;align-items:center;justify-content:space-between;padding:13px 17px}.quiz-side>.panel:first-child h3{font-size:.875rem}.quiz-side>.panel:first-child .timer{font-size:1.35rem}.quiz-side>.panel:first-child p{display:none}.quiz-side>.palette-panel{grid-row:3}.quiz-side>.side-help{display:none}}</style>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#" aria-label="北森练习首页"><span class="brand-icon">▂▅▇</span><span>北森测评练习<small>认知能力训练</small></span></a>
+    <div class="nav-label">练习工作台</div>
+    <nav aria-label="主导航">
+      <button data-view="home" class="nav-item active"><span>▦</span>开始练习</button>
+      <button data-view="report" class="nav-item"><span>◴</span>本次成绩</button>
+      <button data-view="wrong" class="nav-item"><span>▤</span>本次错题<span class="nav-count" id="wrong-count">0</span></button>
+      <button data-view="sources" class="nav-item"><span>▧</span>题库与来源</button>
+    </nav>
+    <div class="sidebar-bottom"><span class="tiny-label">训练范围</span><p>只练有明确答案的能力题</p><span class="scope-pill">已排除性格测试</span><small>独立练习工具 · 非北森官方产品</small></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><span>能力训练 / <b id="breadcrumb">开始练习</b></span><span class="top-tag">中文题库 · 2026.10 核查</span></header>
+    <main id="app" tabindex="-1"></main>
+    <footer>练习分数仅反映本工具的作答表现，不等同于北森官方成绩、百分位或录用结论。<br>本次成绩与错题保留在当前页面会话中，刷新前可导出报告。</footer>
+  </div>
+  <dialog id="confirm-dialog" aria-labelledby="dialog-title"><form method="dialog"><h2 id="dialog-title">提交本次练习？</h2><p id="dialog-copy"></p><div class="button-row"><button value="cancel" class="btn secondary">继续作答</button><button value="confirm" class="btn primary">确认提交</button></div></form></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="image-dialog" aria-labelledby="image-title"><div class="image-dialog-head"><h2 id="image-title">原题图片 · 放大查看</h2><button class="btn secondary" data-action="close-image">关闭图片</button></div><p class="small">可在下方横向、纵向滚动查看完整图片。</p><div id="image-preview" class="image-preview"></div></dialog>
+  <script src="bank.js"></script><script src="github-bank.js"></script><script src="engine.js"></script><script src="app.js"></script>
+</body>
+</html>
